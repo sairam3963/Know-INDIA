@@ -1,5 +1,5 @@
 body {
-    background: url(https://cdn.hipwallpaper.com/i/41/12/G4QMBo.jpg);
+    background: url(../images/Flag.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -18,9 +18,17 @@ h1 {
 }
 
 .content {
-    padding-top: 25%;
+    padding-top: 27%;
     text-align: center;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+span.saffron {
+    color: #ff9933;
+}
+
+span.green {
+    color: #138808;
 }
 
 hr {
