@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mass Media</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="CSS/Mass_Media.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demon" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+                <a href="Homepage.html" class="navbar-brand" id="HomeBorder">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#cinema">Cinema</a></li>
+                    <li><a href="#radio">Radio</a></li>
+                    <li><a href="#tv">Television - Doordarshan</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="jumbotron" id="top">
+            <h1>Mass Media</h1>
+
+        </div>
+
+        <p class="color" id="cinema"><b>Cinema:</b></p>
+
+        <p class="center"><img src="images/MassMedia/Cinema.jpg" height="400px" width="500px"></p>
+
+        <p>The Films Division was constituted in January 1948 by re-christening the erstwhile Information Films of India and the Indian New Parade set up in 1943, primarily for war coverage. The Cinematograph Act of 1918 was Indianised in 1952 which made
+            the screening of documentary films compulsory throughout the country.</p>
+
+        <p>Since 1949, Films Division has been releasing a documentary or news- based or an animation film every single Friday for the theatres spread across the country, in 15 national languages. Over the decades, the Division has virtually recorded the
+            country's entire post-independence history. With headquarters in Mumbai, Films Division is equipped with all facilities of production studios, recording theatres, editing rooms, animation unit, cameras, video set-up and preview theatres. Dubbing
+            of films in 15 Indian languages is also done in-house.</p>
+        <p>
+            <button type="button" class="btn btn-default btn-lg" id="cinema"><a href="http://filmsdivision.org/">View more</a></button>
+        </p>
+        <hr>
+
+        <p class="color" id="radio"><b>Radio:</b></p>
+        <p class="center"><img src="images/MassMedia/Radio.jpg"></p>
+        <p>Radio Broadcasting started in India in the early 1920's. The first programme was broadcast in 1923 by the Radio club of Bombay. This was followed by setting up Broadcasting Services in 1927 with two privately-owned transmitters at Bombay and Calcutta.
+            The Government took over the transmitters in 1930 and started operating them under the name of Indian Broadcasting Service. It was changed to All India Radio (AIR) in 1936 and it came to be known as Akashvani from 1957.</p>
+        <p>
+            <button type="button" class="btn btn-default btn-lg" id="radio2"><a href="http://prasarbharati.gov.in/AIR/index.php">View more</a></button>
+        </p>
+        <hr>
+
+        <p class="color" id="tv"><b>Television - Doordarshan:</b></p>
+        <p class="center"><img src="images/MassMedia/Doordarshan.jpg" height="400px" width="400px"></p>
+
+        <p>Doordarshan, a Public Service Broadcaster, is among the largest terrestrial television network in the world. The service was started in New Delhi on 15 September 1959 to transmit educational and development programmes on an experimental basis
+            with half-an-hour programming.</p>
+
+        <p>Commencement of regular television service as part of All India Radio commenced in Delhi (1965); Mumbai (1972); Kolkata (1975), Chennai (1975). Doordarshan was established on 15 September 1976. A major landmark thereafter was the introduction
+            of colour television in 1982 coinciding with the 9th Asian Games held in New Delhi that ushered in a major revolution in broadcasting in the country. This was followed by a phase of rapid expansion of Doordarshan when, in 1984 more or less
+            every day saw the installation of a transmitter in the country.</p>
+        <p>
+            <button type="button" class="btn btn-default btn-lg" id="radio2"><a href="http://www.doordarshan.gov.in/">View more</a></button>
+        </p>
+        <hr>
+
+
+
+
+
+        <p>
+            <button type="button" class="btn btn-default btn-lg" id="button"><a href="#top">Back to top</a></button>
+        </p>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script>
+            $(document).on('click', 'a[href^="#"]', function(event) {
+                event.preventDefault();
+
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 500);
+            });
+        </script>
+</body>
+
+</html>

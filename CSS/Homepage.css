@@ -1,0 +1,44 @@
+body { 
+  padding-top: 70px; 
+  font-family: Lato;
+  
+}
+
+    .jumbotron {
+      color: #2c3e50;
+      background: #ecf0f1;
+
+    }
+
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    } 
+
+/*.frame {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}*/
+/*img {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}*/
+/*img:hover {
+  width: 200px;
+  height: 200px;
+}*/
+
+    
